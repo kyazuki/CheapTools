@@ -1,5 +1,6 @@
 modLoader="javafml"
-loaderVersion="[36,)"license="All rights reserved"
+loaderVersion="[32,)"
+license="All rights reserved"
 issueTrackerURL="https://github.com/kyazuki/CheapTools/issues?q=is%3Aissue"
 [[mods]]
 modId="cheaptools"
@@ -16,7 +17,7 @@ Cheap Tools!
 [[dependencies.cheaptools]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[32,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.cheaptools]]
