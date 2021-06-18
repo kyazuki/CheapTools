@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[36,)"license="All rights reserved"
+issueTrackerURL="https://github.com/kyazuki/CheapTools/issues?q=is%3Aissue"
+[[mods]]
+modId="cheaptools"
+version="${version}"
+displayName="CheapTools"
+updateJSONURL="https://raw.githubusercontent.com/kyazuki/CheapTools/master/update.json"
+displayURL="https://github.com/kyazuki/CheapTools"
+logoFile="logo.png"
+credits="MinecraftForge, Cadiboo"
+authors="kyazuki"
+description='''
+Cheap Tools!
+'''
+[[dependencies.cheaptools]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.cheaptools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16,)"
+    ordering="NONE"
+    side="BOTH"

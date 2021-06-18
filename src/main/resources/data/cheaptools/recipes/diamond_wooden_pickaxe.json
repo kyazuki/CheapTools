@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "O": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "cheaptools:diamond_wooden_pickaxe"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "O",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    },
+    "X": {
+      "tag": "forge:gems/diamond"
+    },
+    "O": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "cheaptools:diamond_wooden_sword"
+  }
+}
