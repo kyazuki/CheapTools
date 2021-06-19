@@ -14,7 +14,7 @@ public class CheapToolsItems {
       DIAMOND_WOODEN_PICKAXE,
       RAINBOW_HELMET,
       RAINBOW_CHESTPLATE,
-      RAINBOW_LEGGINS,
+      RAINBOW_LEGGINGS,
       RAINBOW_BOOTS;
 
   public static void registerItems(IForgeRegistry<Item> registry) {
@@ -24,7 +24,7 @@ public class CheapToolsItems {
     DIAMOND_WOODEN_PICKAXE = register(registry, "diamond_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.DIAMOND_WOODEN, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
     RAINBOW_HELMET = register(registry, "rainbow_helmet", new ArmorItem(CheapToolsArmorMaterial.RAINBOW, EquipmentSlotType.HEAD, (new Item.Properties()).group(ItemGroup.COMBAT)));
     RAINBOW_CHESTPLATE = register(registry, "rainbow_chestplate", new ArmorItem(CheapToolsArmorMaterial.RAINBOW, EquipmentSlotType.CHEST, (new Item.Properties()).group(ItemGroup.COMBAT)));
-    RAINBOW_LEGGINS = register(registry, "rainbow_leggins", new ArmorItem(CheapToolsArmorMaterial.RAINBOW, EquipmentSlotType.LEGS, (new Item.Properties()).group(ItemGroup.COMBAT)));
+    RAINBOW_LEGGINGS = register(registry, "rainbow_leggings", new ArmorItem(CheapToolsArmorMaterial.RAINBOW, EquipmentSlotType.LEGS, (new Item.Properties()).group(ItemGroup.COMBAT)));
     RAINBOW_BOOTS = register(registry, "rainbow_boots", new ArmorItem(CheapToolsArmorMaterial.RAINBOW, EquipmentSlotType.FEET, (new Item.Properties()).group(ItemGroup.COMBAT)));
   }
 
