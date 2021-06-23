@@ -11,11 +11,29 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.util.LazyValue;
 
 public enum CheapToolsItemTier implements IItemTier {
-  WOODEN_DIAMOND(ItemTier.WOOD.getHarvestLevel(), ItemTier.DIAMOND.getMaxUses(), ItemTier.WOOD.getEfficiency(), ItemTier.WOOD.getAttackDamage(), ItemTier.DIAMOND.getEnchantability(), () -> {
-    return Ingredient.merge(Lists.newArrayList(Ingredient.fromTag(ItemTags.PLANKS), Ingredient.fromItems(Items.DIAMOND)));
+  WOOD_STONE(ItemTier.WOOD.getHarvestLevel(), ItemTier.STONE.getMaxUses(), ItemTier.WOOD.getEfficiency(), ItemTier.WOOD.getAttackDamage(), ItemTier.STONE.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.STONE.getRepairMaterial()));
   }),
-  DIAMOND_WOODEN(ItemTier.DIAMOND.getHarvestLevel(), ItemTier.WOOD.getMaxUses(), ItemTier.DIAMOND.getEfficiency(), ItemTier.DIAMOND.getAttackDamage(), ItemTier.WOOD.getEnchantability(), () -> {
-    return Ingredient.merge(Lists.newArrayList(Ingredient.fromTag(ItemTags.PLANKS), Ingredient.fromItems(Items.DIAMOND)));
+  STONE_WOOD(ItemTier.STONE.getHarvestLevel(), ItemTier.WOOD.getMaxUses(), ItemTier.STONE.getEfficiency(), ItemTier.STONE.getAttackDamage(), ItemTier.WOOD.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.STONE.getRepairMaterial()));
+  }),
+  WOOD_IRON(ItemTier.WOOD.getHarvestLevel(), ItemTier.IRON.getMaxUses(), ItemTier.WOOD.getEfficiency(), ItemTier.WOOD.getAttackDamage(), ItemTier.IRON.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.IRON.getRepairMaterial()));
+  }),
+  IRON_WOOD(ItemTier.IRON.getHarvestLevel(), ItemTier.WOOD.getMaxUses(), ItemTier.IRON.getEfficiency(), ItemTier.IRON.getAttackDamage(), ItemTier.WOOD.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.IRON.getRepairMaterial()));
+  }),
+  WOOD_GOLD(ItemTier.WOOD.getHarvestLevel(), ItemTier.GOLD.getMaxUses(), ItemTier.WOOD.getEfficiency(), ItemTier.WOOD.getAttackDamage(), ItemTier.GOLD.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.GOLD.getRepairMaterial()));
+  }),
+  GOLD_WOOD(ItemTier.GOLD.getHarvestLevel(), ItemTier.WOOD.getMaxUses(), ItemTier.GOLD.getEfficiency(), ItemTier.GOLD.getAttackDamage(), ItemTier.WOOD.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.GOLD.getRepairMaterial()));
+  }),
+  WOOD_DIAMOND(ItemTier.WOOD.getHarvestLevel(), ItemTier.DIAMOND.getMaxUses(), ItemTier.WOOD.getEfficiency(), ItemTier.WOOD.getAttackDamage(), ItemTier.DIAMOND.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.DIAMOND.getRepairMaterial()));
+  }),
+  DIAMOND_WOOD(ItemTier.DIAMOND.getHarvestLevel(), ItemTier.WOOD.getMaxUses(), ItemTier.DIAMOND.getEfficiency(), ItemTier.DIAMOND.getAttackDamage(), ItemTier.WOOD.getEnchantability(), () -> {
+    return Ingredient.merge(Lists.newArrayList(ItemTier.WOOD.getRepairMaterial(), ItemTier.DIAMOND.getRepairMaterial()));
   });
 
   private final int harvestLevel;

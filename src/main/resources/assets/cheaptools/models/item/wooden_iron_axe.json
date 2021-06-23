@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "cheaptools:item/wooden_iron_axe"
+  }
+}
