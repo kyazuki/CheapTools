@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "O",
-    "X",
-    "#"
+    "OX",
+    " #",
+    " #"
   ],
   "key": {
     "#": {
@@ -13,10 +13,10 @@
       "tag": "minecraft:planks"
     },
     "O": {
-      "tag": "forge:gems/diamond"
+      "tag": "minecraft:stone_tool_materials"
     }
   },
   "result": {
-    "item": "cheaptools:diamond_wooden_sword"
+    "item": "cheaptools:stone_wooden_hoe"
   }
 }

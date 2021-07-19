@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L L",
+    "D L"
+  ],
+  "key": {
+    "L": {
+      "tag": "forge:leather"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "result": {
+    "item": "cheaptools:rainbow_boots"
+  }
+}

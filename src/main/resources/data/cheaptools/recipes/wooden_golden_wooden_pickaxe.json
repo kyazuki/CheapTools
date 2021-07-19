@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "O",
-    "X",
-    "#"
+    "XOX",
+    " # ",
+    " # "
   ],
   "key": {
     "#": {
@@ -13,10 +13,10 @@
       "tag": "minecraft:planks"
     },
     "O": {
-      "tag": "forge:gems/diamond"
+      "tag": "forge:ingots/gold"
     }
   },
   "result": {
-    "item": "cheaptools:diamond_wooden_sword"
+    "item": "cheaptools:wooden_golden_wooden_pickaxe"
   }
 }

@@ -13,10 +13,10 @@
       "tag": "minecraft:planks"
     },
     "O": {
-      "tag": "forge:gems/diamond"
+      "tag": "forge:ingots/gold"
     }
   },
   "result": {
-    "item": "cheaptools:diamond_wooden_sword"
+    "item": "cheaptools:golden_wooden_sword"
   }
 }

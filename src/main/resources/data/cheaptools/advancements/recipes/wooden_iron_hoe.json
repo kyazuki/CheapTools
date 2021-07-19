@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "cheaptools:diamond_wooden_sword"
+      "cheaptools:wooden_iron_hoe"
     ]
   },
   "criteria": {
-    "has_diamond": {
+    "has_iron_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:gems/diamond"
+            "tag": "forge:ingots/iron"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cheaptools:diamond_wooden_sword"
+        "recipe": "cheaptools:wooden_iron_hoe"
       }
     }
   },
   "requirements": [
     [
-      "has_diamond",
+      "has_iron_ingot",
       "has_the_recipe"
     ]
   ]

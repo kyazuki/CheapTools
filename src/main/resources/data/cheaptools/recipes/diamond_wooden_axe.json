@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "O",
-    "X",
-    "#"
+    "OX",
+    "X#",
+    " #"
   ],
   "key": {
     "#": {
@@ -17,6 +17,6 @@
     }
   },
   "result": {
-    "item": "cheaptools:diamond_wooden_sword"
+    "item": "cheaptools:diamond_wooden_axe"
   }
 }
