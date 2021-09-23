@@ -55,13 +55,13 @@ public class CheapToolsItems {
 
     private static void registerSwords(IForgeRegistry<Item> registry) {
         WOODEN_STONE_SWORD = register(registry, "wooden_stone_sword", new SwordItem(CheapToolsItemTier.WOOD_STONE, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
-        STONE_WOODEN_SWORD = register(registry, "stone_wooden_sword", new SwordItem(CheapToolsItemTier.WOOD_STONE, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
+        STONE_WOODEN_SWORD = register(registry, "stone_wooden_sword", new SwordItem(CheapToolsItemTier.STONE_WOOD, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
         WOODEN_IRON_SWORD = register(registry, "wooden_iron_sword", new SwordItem(CheapToolsItemTier.WOOD_IRON, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
-        IRON_WOODEN_SWORD = register(registry, "iron_wooden_sword", new SwordItem(CheapToolsItemTier.WOOD_IRON, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
+        IRON_WOODEN_SWORD = register(registry, "iron_wooden_sword", new SwordItem(CheapToolsItemTier.IRON_WOOD, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
         WOODEN_GOLDEN_SWORD = register(registry, "wooden_golden_sword", new SwordItem(CheapToolsItemTier.WOOD_GOLD, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
-        GOLDEN_WOODEN_SWORD = register(registry, "golden_wooden_sword", new SwordItem(CheapToolsItemTier.WOOD_GOLD, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
+        GOLDEN_WOODEN_SWORD = register(registry, "golden_wooden_sword", new SwordItem(CheapToolsItemTier.GOLD_WOOD, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
         WOODEN_DIAMOND_SWORD = register(registry, "wooden_diamond_sword", new SwordItem(CheapToolsItemTier.WOOD_DIAMOND, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
-        DIAMOND_WOODEN_SWORD = register(registry, "diamond_wooden_sword", new SwordItem(CheapToolsItemTier.WOOD_DIAMOND, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
+        DIAMOND_WOODEN_SWORD = register(registry, "diamond_wooden_sword", new SwordItem(CheapToolsItemTier.DIAMOND_WOOD, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)));
     }
 
     private static void registerPickaxes(IForgeRegistry<Item> registry) {
@@ -96,13 +96,13 @@ public class CheapToolsItems {
 
     private static void registerHoes(IForgeRegistry<Item> registry) {
         WOODEN_STONE_HOE = register(registry, "wooden_stone_hoe", new HoeItem(CheapToolsItemTier.WOOD_STONE, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        STONE_WOODEN_HOE = register(registry, "stone_wooden_hoe", new HoeItem(CheapToolsItemTier.WOOD_STONE, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        STONE_WOODEN_HOE = register(registry, "stone_wooden_hoe", new HoeItem(CheapToolsItemTier.STONE_WOOD, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
         WOODEN_IRON_HOE = register(registry, "wooden_iron_hoe", new HoeItem(CheapToolsItemTier.WOOD_IRON, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        IRON_WOODEN_HOE = register(registry, "iron_wooden_hoe", new HoeItem(CheapToolsItemTier.WOOD_IRON, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        IRON_WOODEN_HOE = register(registry, "iron_wooden_hoe", new HoeItem(CheapToolsItemTier.IRON_WOOD, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
         WOODEN_GOLDEN_HOE = register(registry, "wooden_golden_hoe", new HoeItem(CheapToolsItemTier.WOOD_GOLD, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        GOLDEN_WOODEN_HOE = register(registry, "golden_wooden_hoe", new HoeItem(CheapToolsItemTier.WOOD_GOLD, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        GOLDEN_WOODEN_HOE = register(registry, "golden_wooden_hoe", new HoeItem(CheapToolsItemTier.GOLD_WOOD, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
         WOODEN_DIAMOND_HOE = register(registry, "wooden_diamond_hoe", new HoeItem(CheapToolsItemTier.WOOD_DIAMOND, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        DIAMOND_WOODEN_HOE = register(registry, "diamond_wooden_hoe", new HoeItem(CheapToolsItemTier.WOOD_DIAMOND, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        DIAMOND_WOODEN_HOE = register(registry, "diamond_wooden_hoe", new HoeItem(CheapToolsItemTier.DIAMOND_WOOD, 0, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)));
     }
 
     private static void registerArmors(IForgeRegistry<Item> registry) {
