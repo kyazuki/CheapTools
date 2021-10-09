@@ -65,33 +65,33 @@ public class CheapToolsItems {
     }
 
     private static void registerPickaxes(IForgeRegistry<Item> registry) {
-        WOODEN_STONE_PICKAXE = register(registry, "wooden_stone_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_STONE, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_STONE_WOODEN_PICKAXE = register(registry, "wooden_stone_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.STONE_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        STONE_WOODEN_PICKAXE = register(registry, "stone_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_STONE, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_IRON_PICKAXE = register(registry, "wooden_iron_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_IRON, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_IRON_WOODEN_PICKAXE = register(registry, "wooden_iron_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.IRON_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        IRON_WOODEN_PICKAXE = register(registry, "iron_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_IRON, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_GOLDEN_PICKAXE = register(registry, "wooden_golden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_GOLD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_GOLDEN_WOODEN_PICKAXE = register(registry, "wooden_golden_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.GOLD_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        GOLDEN_WOODEN_PICKAXE = register(registry, "golden_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_GOLD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_DIAMOND_PICKAXE = register(registry, "wooden_diamond_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_DIAMOND, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_DIAMOND_WOODEN_PICKAXE = register(registry, "wooden_diamond_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.DIAMOND_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        DIAMOND_WOODEN_PICKAXE = register(registry, "diamond_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_DIAMOND, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_STONE_PICKAXE = register(registry, "wooden_stone_pickaxe", new PickaxeItem(CheapToolsItemTier.STONE_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_STONE_WOODEN_PICKAXE = register(registry, "wooden_stone_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_STONE, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        STONE_WOODEN_PICKAXE = register(registry, "stone_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.STONE_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_IRON_PICKAXE = register(registry, "wooden_iron_pickaxe", new PickaxeItem(CheapToolsItemTier.IRON_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_IRON_WOODEN_PICKAXE = register(registry, "wooden_iron_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_IRON, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        IRON_WOODEN_PICKAXE = register(registry, "iron_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.IRON_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_GOLDEN_PICKAXE = register(registry, "wooden_golden_pickaxe", new PickaxeItem(CheapToolsItemTier.GOLD_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_GOLDEN_WOODEN_PICKAXE = register(registry, "wooden_golden_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_GOLD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        GOLDEN_WOODEN_PICKAXE = register(registry, "golden_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.GOLD_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_DIAMOND_PICKAXE = register(registry, "wooden_diamond_pickaxe", new PickaxeItem(CheapToolsItemTier.DIAMOND_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_DIAMOND_WOODEN_PICKAXE = register(registry, "wooden_diamond_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.WOOD_DIAMOND, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        DIAMOND_WOODEN_PICKAXE = register(registry, "diamond_wooden_pickaxe", new PickaxeItem(CheapToolsItemTier.DIAMOND_WOOD, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)));
     }
 
     private static void registerAxes(IForgeRegistry<Item> registry) {
-        WOODEN_STONE_AXE = register(registry, "wooden_stone_axe", new AxeItem(CheapToolsItemTier.WOOD_STONE, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_STONE_WOODEN_AXE = register(registry, "wooden_stone_wooden_axe", new AxeItem(CheapToolsItemTier.STONE_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        STONE_WOODEN_AXE = register(registry, "stone_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_STONE, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_IRON_AXE = register(registry, "wooden_iron_axe", new AxeItem(CheapToolsItemTier.WOOD_IRON, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_IRON_WOODEN_AXE = register(registry, "wooden_iron_wooden_axe", new AxeItem(CheapToolsItemTier.IRON_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        IRON_WOODEN_AXE = register(registry, "iron_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_IRON, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_GOLDEN_AXE = register(registry, "wooden_golden_axe", new AxeItem(CheapToolsItemTier.WOOD_GOLD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_GOLDEN_WOODEN_AXE = register(registry, "wooden_golden_wooden_axe", new AxeItem(CheapToolsItemTier.GOLD_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        GOLDEN_WOODEN_AXE = register(registry, "golden_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_GOLD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_DIAMOND_AXE = register(registry, "wooden_diamond_axe", new AxeItem(CheapToolsItemTier.WOOD_DIAMOND, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        WOODEN_DIAMOND_WOODEN_AXE = register(registry, "wooden_diamond_wooden_axe", new AxeItem(CheapToolsItemTier.DIAMOND_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
-        DIAMOND_WOODEN_AXE = register(registry, "diamond_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_DIAMOND, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_STONE_AXE = register(registry, "wooden_stone_axe", new AxeItem(CheapToolsItemTier.STONE_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_STONE_WOODEN_AXE = register(registry, "wooden_stone_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_STONE, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        STONE_WOODEN_AXE = register(registry, "stone_wooden_axe", new AxeItem(CheapToolsItemTier.STONE_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_IRON_AXE = register(registry, "wooden_iron_axe", new AxeItem(CheapToolsItemTier.IRON_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_IRON_WOODEN_AXE = register(registry, "wooden_iron_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_IRON, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        IRON_WOODEN_AXE = register(registry, "iron_wooden_axe", new AxeItem(CheapToolsItemTier.IRON_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_GOLDEN_AXE = register(registry, "wooden_golden_axe", new AxeItem(CheapToolsItemTier.GOLD_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_GOLDEN_WOODEN_AXE = register(registry, "wooden_golden_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_GOLD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        GOLDEN_WOODEN_AXE = register(registry, "golden_wooden_axe", new AxeItem(CheapToolsItemTier.GOLD_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_DIAMOND_AXE = register(registry, "wooden_diamond_axe", new AxeItem(CheapToolsItemTier.DIAMOND_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        WOODEN_DIAMOND_WOODEN_AXE = register(registry, "wooden_diamond_wooden_axe", new AxeItem(CheapToolsItemTier.WOOD_DIAMOND, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
+        DIAMOND_WOODEN_AXE = register(registry, "diamond_wooden_axe", new AxeItem(CheapToolsItemTier.DIAMOND_WOOD, 6.0F, -3.2F, (new Item.Properties()).group(ItemGroup.TOOLS)));
     }
 
     private static void registerHoes(IForgeRegistry<Item> registry) {
